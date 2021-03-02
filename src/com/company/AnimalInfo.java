@@ -11,12 +11,14 @@ public class AnimalInfo {
     public String is_agressive;
     public String is_friendly;
 
-    //people.csv info
-    public int people_id;
-    public int full_name;
-
     //animal_types.csv info
     public int type_id;
     public String animal;
+
+    //people.csv info
+    public int people_id;
+    public String full_name;
+    public int people_age;
+    public String people_gender;
 
 }
